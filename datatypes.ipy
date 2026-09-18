@@ -1,0 +1,83 @@
+"""
+# accessing element in a list 
+marks=[80,90,75,85]
+
+marks[1] = 85
+marks.append(92)
+print(marks)
+
+a=[1,2,3]
+b=a.copy()
+print(b)
+
+#slicing : (start , stop , step)
+numbers=[10,20,30,40,50,]
+
+print(numbers[1:4])
+print(numbers[:3])
+print(numbers[2:])
+print(numbers[::-1])
+
+#tuples
+#Tuples is acollection of multiple values that is ordered and cannot be changed after creation
+student=("bargavi" , 90 , "python")
+print(student[0])
+
+#access value in a tuple
+student = ("bhargavi" , 21, 85.5)
+print(student[0])
+print(student[1])
+print(student[2])
+
+#tuples are immutable , meaning they cannot be changed after creation
+numbers = (10,20,20,30,20)
+
+print (numbers.count(20))
+print (numbers.count(20))
+numbers = (10,20,30,40,)
+print(numbers.index(30))
+
+number = [10, 20, 30, 40]
+print(len(number))
+print (max(number))
+print(min(number))
+print(sum(number))
+
+#sets in python
+#sets is a collection of unique values that is unordered and unindexed
+numbers = {10,20, 30, 20, 10,}
+print(numbers)
+
+#why use sets
+#suppose students have selected subjects
+subjects = {"python", "java", "SQL", "python", "java"}
+print(subjects)
+
+#add values to a set
+subjects = {"python", "java", }
+subjects.add("SQL")
+print(subjects)
+
+"""
+
+#program 8: Power calculation 
+# reading user input 
+# calculate the power of and print the result print(base ** exponent)
+
+# program 1 : power calculation
+base = int(input("enter your number: "))
+exponent = int(input("enter your number: "))
+result = base ** exponent
+print(result)
+
+
+#program 2: average of three numbers
+#taking 3 integer numbers from the user 
+n1 = int(input("enter your nnumber"))
+n2 = int(input(" n 2 :"))
+n3 = int(input(" n 3 : "))
+total = n1 + n2 + n3
+avg  = total/3
+print(total)
+print(avg)
+
